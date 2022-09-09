@@ -1,0 +1,856 @@
+* {
+    font-family: 'Poppins'; 
+}
+
+body {
+    display: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+    line-height: 63px;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.mostpicked h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.picked {
+    position: relative;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.picked div {
+    margin-right: 60px;
+}
+
+.finns h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 18px;
+    top: 295px;
+}
+
+.finns p {
+    font-size: 15px;
+    color: #152C5B;
+    position: absolute;
+    left: 68px;
+    top: 420px;
+}
+
+
+.container {
+width: 800px;
+margin: 0 auto;
+}
+                
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    padding-left: -100px;
+    padding-right: -100px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: -25px;
+    margin-right: 50px;
+    margin-left: -5px;
+    justify-content: space-between;
+    flex-grow: 2;
+    left: -100px;
+}
+                
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: -100px;
+    padding-right: -100px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: -5px;
+    margin-right: 100px;
+    margin-top: 5px;
+    left: -200px;
+}
+
+.montigo h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 450px;
+    top: 55px;
+}
+
+.montigo p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 500px;
+    top: 180px;
+}
+
+.montana h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 870px;
+    top: 55px;
+}
+
+.montana p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 920px;
+    top: 180px;
+}
+
+.kalpa h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 450px;
+    top: 295px;
+}
+
+.kalpa p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 500px;
+    top: 420px;
+}
+
+.caesar h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #152C5B;
+    left: 870px;
+    top: 295px;
+}
+
+.caesar p {
+    position: absolute;
+    font-size: 15px;
+    color: #152C5B;
+    left: 920px;
+    top: 420px;
+}
+
+.price1 {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.price1 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    ;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+}
+
+.price1 p span {
+    font-weight: bold;
+}
+
+.price2 {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.price2 p {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+}
+
+.price2 p span {
+    font-weight: bold;
+}
+
+.price3 {
+    position: absolute;
+    display: flex;
+    padding-left: 601px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.price3 p {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 627px;
+    top: -13px;
+}
+
+.price3 p span {
+    font-weight: bold;
+}
+
+.price4 {
+    position: absolute;
+    display: flex;
+    padding-left: 180px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.price4 p {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 212px;
+    top: -13px;
+}
+
+.price4 p span {
+    font-weight: bold;
+}
+
+.price5 {
+    position: absolute;
+    display: flex;
+    padding-left: 601px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.price5 p {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 636px;
+    top: -13px;
+}
+
+.price5 p span {
+    font-weight: bold;
+}
+
+/*Houses with backyard*/
+.layer1 h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container1 {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.flex-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.tabby h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.tabby p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.tag1 {
+    position: absolute;
+    display: flex;
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.tag1 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 105px;
+    top: -13px;
+}
+
+.tag1 p span {
+    font-weight: bold;
+}
+
+.anggana h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.anggana p {
+    font-size: 15px;
+    color:  #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.seattle h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.seattle p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.wooden h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.wooden p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+/*Hotels with Living room*/
+.layer2 h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container2 {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.gpark h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.gpark p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.podo h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.podo p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.srain h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.srain p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.cashville h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.cashville p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.tag2 {
+    position: absolute;
+    display: flex;
+    padding-left: 1024px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.tag2 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 1047px;
+    top: -13px;
+}
+
+.tag2 p span {
+    font-weight: bold;
+}
+
+/*Apartement with kitchen*/
+.layer3 h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: #152C5B;
+}
+
+.container3 {
+    display: flex;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.flex-row3 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 22px;
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: -430px;
+    margin-top: 5px;
+    left: 200px;
+    justify-content: space-between;
+}
+
+.pswood h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.pswood p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.onefive h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.onefive p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.minimal h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.minimal p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+.tag3 {
+    position: absolute;
+    display: flex;
+    padding-left: 710px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.tag3 p{
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 732px;
+    top: -13px;
+}
+
+.tag3 p span {
+    font-weight: bold;
+}
+
+.stays h2 {
+    position: relative;
+    font-size: 20px;
+    color: #152C5B;
+    left: -48px;
+    top: -40px;
+}
+
+.stays p {
+    font-size: 15px;
+    color: #B0B0B0;
+    position: relative;
+    left: 5px;
+    top: -60px;
+}
+
+
+.happy_family {
+    margin-left: 800px;
+}
+
+.happy_family h1 {
+    color: #152C5B;
+    font-size: 24px;
+    margin-top: 225px;
+    margin-left: -200px;
+}
+
+.happy_family p{
+    color: #152C5B;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: -200px;
+}
+
+.happy_family button{
+    background-color: #3252DF;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: -200px;
+    font-size: 18px;
+}
+
+.family img {
+    display: flex;
+    position: absolute;
+    left: 112px;
+    top: 2540px;
+}
+
+.star {
+    position: relative;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: -200px;
+}
+
+.note p {
+    color:#152C5B;
+    font-size: 32px;
+    margin-top: 18px;
+    margin-left: -200px;
+}
+
+
+footer {
+    margin-top: 230px;
+    border-top: 2px solid #E5E5E5;
+}
+
+.footer1 {
+    margin-left: 60px;
+}
+
+.footer1 h2 {
+    color: #152C5B;
+    font-size: 24px;
+}
+
+.footer1 span {
+    color: #3252DF;
+}
+
+.footer1 p {
+    color: #B0B0B0;
+    font-size: 18px;
+}
+
+
+.footer2 {
+    margin-left: 140px;
+}
+
+.footer2 h2 {
+    color: #152C5B;
+    font-size: 18px;
+}
+
+.footer2 p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+
+.footer3 {
+    margin-left: 100px;
+}
+
+.footer3 h2 {
+    color: #152C5B;
+    font-size: 18px;
+}
+
+.footer3 p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+
+.footer4 {
+    margin-left: 100px;
+}
+
+.footer4 h2 {
+    color: #152C5B;
+    font-size: 18px;
+}
+
+.footer4 p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+
+.copyright p {
+    text-align: center;
+    color: #B0B0B0;
+}
